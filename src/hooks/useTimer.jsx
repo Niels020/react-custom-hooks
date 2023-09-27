@@ -27,9 +27,13 @@ function useTimer(startingTime = 10) {
     const pauseTimer = () => setStarted(false)
 
 
-    return {
-        timer, started, startTimer, resetTimer, pauseTimer
-    }
+    return  {
+            timer, 
+            started, 
+            startTimer, 
+            resetTimer, 
+            pauseTimer
+        }
 }
 
 export default useTimer

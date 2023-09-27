@@ -21,10 +21,11 @@ const FetchHook = () => {
     } else 
         return (
 
-            <>
+            <div style={{border: 'solid black 1px'}}>
+                <h3>custom hook for a fetch request</h3>
                 {console.log(data)}
                 <p>{data.activity}</p>
-            </>
+            </div>
         
         )
 
